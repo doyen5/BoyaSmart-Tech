@@ -1,0 +1,89 @@
+/* Style pour BoyaSmart-Tech */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+}
+
+.top-header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.top-header .contact-info span {
+    margin-right: 15px;
+}
+
+.top-header .social-links a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-header .logo img {
+    height: 50px;
+}
+
+.account-btn {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    color: inherit; /* Optionnel : conserve la couleur par défaut du bouton */
+}
+
+/* Main content styles */
+.welcome-section {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.welcome-section img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.welcome-section h1 {
+    font-size: 2em;
+    color: #003366;
+}
+
+.welcome-section h2 {
+    font-size: 1.5em;
+    color: #cc0000;
+}
+
+/* Footer styles */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
